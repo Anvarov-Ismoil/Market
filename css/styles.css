@@ -1,0 +1,104 @@
+.header .form-control{
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+    box-shadow: none;
+}
+
+.header .container .navbar-brand img{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header form .btn{
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+}
+
+.navbar-toggler span:first-child{
+    display: none;
+}
+.navbar-toggler span:last-child{
+    display: block;
+}
+
+.navbar-toggler.collapsed span:first-child{
+    display: block;
+}
+.navbar-toggler.collapsed span:last-child{
+    display: none;
+}
+
+.header .container .dropdown .flag{
+    height: 20px;
+}
+
+.main .row .carousel .carousel-indicators{
+   
+}
+
+/* .main .row .carousel .carousel-inner .learn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: #0f6bf5;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+} */
+
+.main .row .carousel .carousel-inner .d-block{
+    height: 600px;
+}
+
+.products .row .card{
+    padding: 10px;
+}
+.products .row .card .card-img-top{
+    height: 200px;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.footer .socials i{
+    font-size: 35px;
+    padding: 3px;
+    margin: 0 5px;
+    background: #0f6bf5;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.accordion-button .collapsed {
+    position: relative;
+}
+
+.accordion-button::after {
+    position: absolute;
+    margin-left: none;
+    left: 0;
+    transform: rotate(270deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(360deg);
+}
+
+@media(max-width: 768px){
+    .main .carousel{
+        display: flex;
+        order: -2;
+    }
+    
+    .main .row .carousel .carousel-inner .d-block{
+        height: 470px;
+    }
+    
+    .main .side-bar{
+        margin-top: 25px;
+    }
+}
